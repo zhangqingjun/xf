@@ -1,10 +1,10 @@
-package com.map8.demo;
+package com.map8.xf;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class XfApplicationTests {
 
 	@Test
 	void contextLoads() {
