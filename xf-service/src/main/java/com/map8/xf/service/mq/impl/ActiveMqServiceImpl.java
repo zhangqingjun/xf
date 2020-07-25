@@ -3,16 +3,17 @@ package com.map8.xf.service.mq.impl;
 import com.map8.xf.service.mq.ActiveMqService;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsTemplate;
+import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
 /**
  * zhangfei
  */
+@Service
 public class ActiveMqServiceImpl implements ActiveMqService {
 
-    @Resource
-    private JmsTemplate jmsTemplate;
+    private JmsTemplate jmsTemplate = new JmsTemplate();
 
     @Override
     public void sendMsg(String message) {

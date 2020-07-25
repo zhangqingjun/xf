@@ -2,7 +2,9 @@ package com.map8.xf.service.async.impl;
 
 import com.map8.xf.service.async.AsyncService;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Service;
 
+@Service
 public class AsyncServiceImpl implements AsyncService {
     @Override
     @Async

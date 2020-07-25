@@ -1,14 +1,16 @@
 package com.map8.xf.web.controller;
 
 import com.map8.xf.service.async.AsyncService;
+import io.swagger.annotations.Api;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-@Controller
-@RequestMapping("/async")
+@RestController
+@Api(value = "/async",tags = "异步")
 public class AsyncController {
     @Resource
     private AsyncService asyncService;

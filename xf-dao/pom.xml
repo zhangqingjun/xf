@@ -9,7 +9,17 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>xf-user</artifactId>
+    <groupId>com.map8</groupId>
+    <artifactId>xf-dao</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.28</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>
