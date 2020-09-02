@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 
 /**
- * zhangfei
+ *
  */
 @Service
 public class ActiveMqServiceImpl implements ActiveMqService {
