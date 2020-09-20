@@ -26,7 +26,7 @@ public class SleepTest2 {
                     TimeUnit.SECONDS.sleep(1);
                     System.out.println("I am running");
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    e.fillInStackTrace();
                 }
             }
         });
